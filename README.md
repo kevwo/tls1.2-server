@@ -10,5 +10,5 @@ This hosts a simple server on https://localhost:8080 with a /test endpoint which
 
 ```
 import requests
-requests.get('https://localhost:8080/test').text
+requests.get('https://localhost:8080/test', verify=False).text
 ```
